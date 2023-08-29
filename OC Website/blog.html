@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> University</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" 
+            rel="stylesheet">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/
+            font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/OcLogo.jpg"></a>
+                <div class="nav-links" id="naVLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                  <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                 </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1> Our Certificate & Online Programs For 2022</h1>
+        </section>
+
+       
+        <!------ blog ------>
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/Graduate.jpeg">
+                    <h2>Our Certificate & Online Programs For 2022</h2>
+                    <p>Accredited online certificate programs allow students to learn about particular subjects 
+                        without pursuing a degree. Many colleges and universities offer certificate programs online.<br>
+                       Learners can earn certificates in fields such as education and technology. Schools also offer certificates
+                       in trades such as plumbing and welding. <br> 
+
+                       <br>Some certificate programs accept high school graduates, while others accept
+                       only college graduates. Keep in mind that certificates are not certifications for specific jobs. Certificates help prepare students for their desired careers.<br>
+                       <br>
+                       This page highlights accredited online certificate programs. Read on for information on costs and program options.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="10" placeholder="Yout comment">
+                        </textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                        
+                    </form>
+                </div>
+
+
+
+                </div>
+                <div class="blog-right">
+                    <h3>Post categories</h3>
+                    <div>
+                        <span>Business Administrator</span>
+                        <span>13</span>
+                    </div>
+                    <div>
+                        <span> Criminology</span>
+                        <span>42</span>
+                    </div>
+                    <div>
+                        <span>Education</span>
+                        <span>38</span>
+                    </div>
+                    <div>
+                        <span>Computer science</span>
+                        <span>25</span>
+                    </div>
+                    <div>
+                        <span>HRM</span>
+                        <span>15</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+         <!------ Footer ------>
+         <section class="footer">
+            <h4>About Us</h4>
+            <p>Osmeña Colleges stands as the realization of the dream of its founder. 
+                Dr. Anacleto R. Peliño Señior.. <br>to bring higher education within the reach 
+                 of Masbateños. Who could not afford to send thier children to other places for 
+                a college education.<br>The school was founded in june 1948. holding classes
+                in the rented building, at the corner of Mabini and Danao Street in the capital 
+                town of Masbate. <br> It was first known as Osmeña Colleges in honor of then President
+                Sergio Osmeña.  Sr. whose ideals, visions, <br>and aspiratios became the epitome of 
+                what the school stands today.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkenin"></i>
+            </div>
+            <h6>Made by Eldon B. Oribia</h6>
+        </section>
+
+
+       <!--- JavaScriot for Toggle Menu ---->
+        <script>
+            var naVLinks = document.getElementById(naVLinks);
+            function showMenu(){
+                naVLinks.style.right = "0";
+            }
+            function hideMenu(){
+                naVLinks.style.right = "200px";
+            }
+        </script>
+    </body>
+</html>
